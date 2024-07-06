@@ -1,0 +1,30 @@
+.userMenu {
+  margin-left: auto;
+  width: 230px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  font-size: 20px;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.logOutBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #ffffff;
+  color: rgb(29, 29, 29);
+}
+
+.logOutIcon {
+  width: 28px;
+  height: 28px;
+}

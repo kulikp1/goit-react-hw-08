@@ -1,0 +1,5 @@
+.nav {
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+}

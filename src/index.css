@@ -1,11 +1,13 @@
+@import url(../node_modules/modern-normalize/modern-normalize.css);
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgb(29, 29, 29);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,7 +17,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #282828;
   text-decoration: inherit;
 }
 a:hover {
@@ -25,14 +27,25 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+}
+
+p {
+  margin: 0;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 button {

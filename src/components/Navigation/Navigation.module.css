@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.navLink {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .navLink {
+    display: none;
+  }
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: 700;
+  transform: scale(1.1);
+}
+
+.home {
+  display: none;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+  }
+}
+
+.contacts {
+  display: none;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}

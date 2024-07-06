@@ -1,0 +1,16 @@
+.phoneInput {
+  background-color: #ffffff;
+  border: 1px solid rgb(29, 29, 29);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  color: rgb(29, 29, 29);
+  font-size: 18px;
+  padding: 0 5px;
+}
+
+.phoneInput > input {
+  color: rgb(29, 29, 29);
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+}
