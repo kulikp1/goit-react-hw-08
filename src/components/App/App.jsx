@@ -6,12 +6,13 @@ import AppBar from '../AppBar/AppBar';
 import { useEffect } from 'react';
 import { refreshUser } from '../../redux/auth/operations';
 import { selectIsRefreshing } from '../../redux/auth/selectors';
-import Loader from '../Loader/Loader';
+import Loader from '../Loader/ Loader';
 import RestrictedRoute from '../RestrictedRoute';
 import PrivateRoute from '../PrivateRoute';
 import { Suspense, lazy } from 'react';
 
-const HomePage = lazy(() => import('../../pages/HomePage/HomePage'));
+// const HomePage = lazy(() => import('../../pages/HomePage/HomePage'));
+const HomePage = lazy(() => import('../../pages/ HomePage/ HomePage'));
 const RegistrationPage = lazy(() =>
   import('../../pages/RegistrationPage/RegistrationPage')
 );
