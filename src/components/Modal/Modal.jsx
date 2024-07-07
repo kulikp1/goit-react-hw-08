@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { editContact } from '../../redux/contacts/operations';
 
-// Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 ReactModal.setAppElement('#root');
 
 export default function ContactEditor({
@@ -15,9 +14,7 @@ export default function ContactEditor({
   initialNumber,
   contactId,
 }) {
-  //   const handleModalClose = () => {
-  //     setIsOpen(false);
-  //   };
+
 
   const [name, setName] = useState(initialName);
   const [number, setNumber] = useState(initialNumber);
@@ -67,7 +64,6 @@ export default function ContactEditor({
 
             <button
               className={css.btn}
-              //   onClick={onClose}
             >
               Save
             </button>
